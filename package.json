@@ -1,0 +1,21 @@
+{
+  "name": "karma-sandbox",
+  "version": "0.0.0",
+  "description": "ERROR: No README.md file found!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/t9m/karma-sandbox.git"
+  },
+  "author": "t9m",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "a53374e10999b5b51d8cdb85e8f143e51d84c61e",
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "grunt-karma": "~0.4.4"
+  }
+}
