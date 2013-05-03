@@ -1,5 +1,5 @@
 // Karma configuration
-// Generated on Thu May 02 2013 20:33:12 GMT+0900 (JST)
+// Generated on Fri May 03 2013 22:33:31 GMT+0900 (JST)
 
 
 // base path, that will be used to resolve files and exclude
@@ -9,7 +9,9 @@ basePath = '';
 // list of files / patterns to load in the browser
 files = [
   MOCHA,
-  MOCHA_ADAPTER
+  MOCHA_ADAPTER,
+  'src/*.js',
+  'spec/*.js'
 ];
 
 
@@ -53,7 +55,7 @@ autoWatch = true;
 // - Safari (only Mac)
 // - PhantomJS
 // - IE (only Windows)
-browsers = ['Chrome'];
+browsers = ['Chrome', 'PhantomJS'];
 
 
 // If browser does not capture in given timeout [ms], kill it
