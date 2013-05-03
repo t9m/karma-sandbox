@@ -16,6 +16,7 @@
   "gitHead": "a53374e10999b5b51d8cdb85e8f143e51d84c61e",
   "dependencies": {
     "grunt": "~0.4.1",
+    "grunt-contrib-coffee": "~0.7.0",
     "grunt-karma": "~0.4.4"
   }
 }
