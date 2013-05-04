@@ -11,7 +11,7 @@ files = [
   MOCHA,
   MOCHA_ADAPTER,
   'src/*.js',
-  'spec/*.js'
+  'spec/coffee/*.coffee'
 ];
 
 
